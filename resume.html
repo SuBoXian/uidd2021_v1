@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Welcom to Katie Ellison's own resume website!</title>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <link href="./resume.css" rel="stylesheet" type="text/css">
+	    <!--<link rel="preconnect" href="https://fonts.gstatic.com">
+	    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@700&display=swap" rel="stylesheet">
+      -->
+    </head>
+
+    <body>
+      <nav id="navbar">
+        <!--<div class="nb"><a href="#Home"><p class="nb-text" id="h">Home</p></a></div>
+        <div class="nb"><a href="#About me"><p class="nb-text" id="a">About me</p></a></div>
+        <div class="nb"><a href="#Skill"><p class="nb-text" id="s">Skill</p></div>
+        <div class="nb"><a href="#Protfolio"><p class="nb-text" id="p">Protfolio</p></a></div>
+        <div class="nb" id="nb_r"><a href="#Contact me"><p class="nb-text" id="c">Contact me</p></a></div>-->
+		<input type="button" class="nb" id="p1_h" value="Home" onclick="msg()">
+		<input type="button" class="nb" id="p1_a" value="About me" onclick="msg()">
+		<input type="button" class="nb" id="p1_s" value="Skill" onclick="msg()">
+		<input type="button" class="nb" id="p1_p" value="Portfolio" onclick="msg()">
+		<input type="button" class="nb" id="p1_c" value="Contact me" onclick="msg()">
+      </nav>
+      <div class="page" id="p1">
+        <div><a href="https://imgur.com/7PXWmVv"><img id="p1_photo1" src="https://i.imgur.com/7PXWmVv.jpg" title="source: imgur.com" /></a></div>
+		    <!--<div id="p1_photo2"><a href="https://imgur.com/eNOldpT"><img width="400" src="https://i.imgur.com/eNOldpT.jpg" title="source: imgur.com" /></a></div>
+        <div id="p1_photo3"><a href="https://imgur.com/OVNjwGL"><img width="400"src="https://i.imgur.com/OVNjwGL.jpg" title="source: imgur.com" /></a></div>-->
+        <div id="p1_name">Katie Ellison</div>
+        <div id="p1_job">A photographer</div>
+        <!--<div id="p1_more">more</div>-->
+		<input type="button" id="p1_more" value="more" onclick="msg()">
+        <div id="p1_photo_order">
+          <div class="p1_bar" id="p11"></div>
+          <div class="p1_bar" id="p12"></div>
+          <div class="p1_bar" id="p13"></div>
+        </div>
+      </div>
+      <div class="page" id="p2">
+        <div id="p2_photo">
+		  <div id="p2_arrow"><a href="https://imgur.com/tt1wvGb"><img id="p2_img_arrow" src="https://i.imgur.com/tt1wvGb.png" title="source: imgur.com" /></a></div>
+          <div id="p2_face"><a href="https://imgur.com/H6CaExA"><img id="p2_img_face" src="https://i.imgur.com/H6CaExA.png" title="source: imgur.com" /></a></div>
+        </div>
+
+        <div id="p2_info">
+          <div class="p2_i" id="p2_about_me">About me..</div>
+
+          <div class="p2_i" id="p2_bar"> </div>
+
+          <div class="p2_i" id="work_exp"><ul><li>Work Experience</li></ul></div>
+            
+          <div class="p2_i" id="exp1" class="time_work">
+            <div class="p2_time" id="t1">2019-now</div>
+            <div class="p2_work" id="w1">Freelancer Photographer</div>
+          </div>
+          <div class="p2_i" id="exp2" class="time_work">
+            <div class="p2_time" id="t2">2015-2019</div>
+            <div class="p2_work" id="w2">VOGUE Photographer</div>
+          </div>
+          <div class="p2_i" id="exp3" class="time_work">
+            <div class="p2_time" id="t3">2014-2015</div>
+            <div class="p2_work" id="w4">Event Photography assistant</div>
+          </div>
+
+          <div class="p2_i" id="edu"><ul><li>Education</li></ul></div>
+          <div class="p2_i" id="ma" class="time_edu">
+            <div class="p2_time" id="t4">2012-2014</div>
+            <div class="p2_work" id="e1">MA in photography, RCA</div>
+          </div>
+          <div class="p2_i" id="ba" class="time_edu">
+            <div class="p2_time" id="t5">2008-2014</div>
+            <div class="p2_work" id="e2">BA in graphic design, UAL</div>
+          </div>
+
+        </div>
+
+      </div>
+      <!--     page3      -->
+      <div class="page" id="p3">
+          <div><a href="https://imgur.com/er3Vspu"><img class="skill" id="s1" src="https://i.imgur.com/er3Vspu.png" title="source: imgur.com" /></a></div>
+          <div><a href="https://imgur.com/t5AjmTM"><img class="skill" id="s2" src="https://i.imgur.com/t5AjmTM.png" title="source: imgur.com" /></a></div>
+          <div><a href="https://imgur.com/QO91WDp"><img class="skill" id="s3" src="https://i.imgur.com/QO91WDp.png" title="source: imgur.com" /></a></div>
+	  </div>
+	  <!--     page4      -->
+      <div class="page" id="p4">
+		  <div id="p4_pf">Protfolio</div>
+		  <div id="p4_img">
+			<div id="p4_p1">
+				<div><a href="https://imgur.com/NQmeKR2"><img id="p4_england" src="https://i.imgur.com/NQmeKR2.jpg" title="source: imgur.com" /></a></div>
+				<div><a href="https://imgur.com/33Qg7Ot"><img id="p4_france" src="https://i.imgur.com/33Qg7Ot.jpg" title="source: imgur.com" /></a></div>
+				<div><a href="https://imgur.com/tTxUa6y"><img id="p4_australia"src="https://i.imgur.com/tTxUa6y.jpg" title="source: imgur.com" /></a></div>
+			</div>
+			<div id="p4_p2">
+				<div><a href="https://imgur.com/E0nQkqw"><img id="p4_asia" src="https://i.imgur.com/E0nQkqw.jpg" title="source: imgur.com" /></a></div>
+				<div><a href="https://imgur.com/akEfCl7"><img id="p4_america" src="https://i.imgur.com/akEfCl7.jpg" title="source: imgur.com" /></a></div>
+				<div><a href="https://imgur.com/XBSq393"><img id="p4_others" src="https://i.imgur.com/XBSq393.jpg" title="source: imgur.com" /></a></div>
+			</div>
+		  </div>
+      </div>
+	  <!--     page5      -->
+      <div class="page" id="p5">
+		<div id="p5_all">
+			<div id="contact">Contact me</div>
+			<div id="p5_bar"></div>
+			<div id="p5_text">Please fill out the quick form and we will be in touch</div>
+			<form id="p5_form">
+				<div id="p5_name">
+					<input type='text' id="p5_fn" value="First Name">
+					<input type='text' id="p5_ln" value="Last Name">
+				</div>
+				<div id="p5_email">
+					<input type='text' id="p5_e" value="Email">
+				</div>
+				<div id="p5_message">
+					<input type='text' id="p5_m" value="Leave your message..">
+				</div>
+				<div id="p5_submit">
+					<input type='submit' id="p5_s" value="Submit">
+				</div>
+			</form>
+		</div>
+      </div>
+	  <!--     page6      -->
+      <div class="page" id="p6">
+		<div id="p6_img">
+			<div><a href="https://imgur.com/UvFWnCO"><img id="p6_ig" src="https://i.imgur.com/UvFWnCO.png" title="source: imgur.com" /></a></div>
+			<div><a href="https://imgur.com/6i0g28u"><img id="p6_fb" src="https://i.imgur.com/6i0g28u.png" title="source: imgur.com" /></a></div>
+			<div><a href="https://imgur.com/kzgVIcg"><img id="p6_yt" src="https://i.imgur.com/kzgVIcg.png" title="source: imgur.com" /></a></div>
+		</div>
+		<div id="p6_right">
+			<div id="p6_text">© 2021 Liz Li - all rights reserved. Terms of Use Privacy & Cookies</div>
+		</div>
+      </div>
+    </body>
+  </html>
+
+  <script>
+	function msg(){
+		alert("There is no function yet!");
+	}
+  </script>
+
