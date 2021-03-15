@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      <title>Welcom to Katie Ellison's own resume website!</title>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <link href="./resume.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+      <nav id="navbar">
+		<input type="button" class="nb" id="p1_h" value="Home" onclick="scroll_to_home()">
+		<input type="button" class="nb" id="p1_a" value="About me" onclick="scroll_to_about_me()">
+		<input type="button" class="nb" id="p1_s" value="Skill" onclick="scroll_to_skill()">
+		<input type="button" class="nb" id="p1_p" value="Portfolio" onclick="scroll_to_portfolio()">
+		<input type="button" class="nb" id="p1_c" value="Contact me" onclick="scroll_contact_me()">
+      </nav>
+      <div class="page" id="p1">
+		<div id="p1_photo">
+			<img id="p1_photo1" src="./Home/IMG01.jpg">
+			<img id="p1_photo2" src="./Home/IMG02.jpg">
+			<img id="p1_photo3" src="./Home/IMG03.jpg">
+		</div>
+		<div id="p1_name">Katie Ellison</div>
+        <div id="p1_job">A photographer</div>
+		<input type="button" id="p1_more" value="more" onclick="click_more()">
+        <div id="p1_photo_order">
+          <div class="p1_bar" id="p11"></div>
+          <div class="p1_bar" id="p12"></div>
+          <div class="p1_bar" id="p13"></div>
+        </div>
+      </div>
+      <div class="page" id="p2">
+        <div id="p2_photo">
+		  <div id="p2_arrow"><img id="p2_img_arrow" src="./About_me/IMG02.png" /></div>
+          <div id="p2_face"><img id="p2_img_face" src="./About_me/IMG01.png" /></div>
+		</div>
+
+        <div id="p2_info">
+          <div class="p2_i" id="p2_about_me">About me..</div>
+
+          <div class="p2_i" id="p2_bar"> </div>
+
+          <div class="p2_i" id="work_exp"><ul><li>Work Experience</li></ul></div>
+            
+          <div class="p2_i" id="exp1" class="time_work">
+            <div class="p2_time" id="t1">2019-now</div>
+            <div class="p2_work" id="w1">Freelancer Photographer</div>
+          </div>
+          <div class="p2_i" id="exp2" class="time_work">
+            <div class="p2_time" id="t2">2015-2019</div>
+            <div class="p2_work" id="w2">VOGUE Photographer</div>
+          </div>
+          <div class="p2_i" id="exp3" class="time_work">
+            <div class="p2_time" id="t3">2014-2015</div>
+            <div class="p2_work" id="w4">Event Photography assistant</div>
+          </div>
+
+          <div class="p2_i" id="edu"><ul><li>Education</li></ul></div>
+          <div class="p2_i" id="ma" class="time_edu">
+            <div class="p2_time" id="t4">2012-2014</div>
+            <div class="p2_work" id="e1">MA in photography, RCA</div>
+          </div>
+          <div class="p2_i" id="ba" class="time_edu">
+            <div class="p2_time" id="t5">2008-2014</div>
+            <div class="p2_work" id="e2">BA in graphic design, UAL</div>
+          </div>
+
+        </div>
+
+      </div>
+      <!--     page3      -->
+      <div class="page" id="p3">
+		  <div><img class="skill" id="s1" src="./Skill/IMG01.png" /></div>
+          <div><img class="skill" id="s2" src="./Skill/IMG02.png" /></div>
+          <div><img class="skill" id="s3" src="./Skill/IMG03.png" /></div>
+
+	  </div>
+	  <!--     page4      -->
+      <div class="page" id="p4">
+		  <div id="p4_pf">Protfolio</div>
+		  <div id="p4_img">
+			<div id="p4_p1">
+				<div id="p4_england" class="p4_photo"><p class="p4_title">England</p></div>
+				<div id="p4_france" class="p4_photo" ><p class="p4_title">France</p></div>
+				<div id="p4_australia" class="p4_photo"><p class="p4_title">Australia</p></div>
+
+			</div>
+			<div id="p4_p2">
+				<div id="p4_asia"  class="p4_photo"><p class="p4_title">Asia</p></div>
+				<div id="p4_america"  class="p4_photo"><p class="p4_title">America</p></div>
+				<div id="p4_others"  class="p4_photo"><p class="p4_title">Others</p></div>
+			</div>
+		  </div>
+      </div>
+	  <!--     page5      -->
+      <div class="page" id="p5">
+		<div id="p5_all">
+			<div id="contact">Contact me</div>
+			<div id="p5_bar"></div>
+			<div id="p5_text">Please fill out the quick form and we will be in touch</div>
+			<form id="p5_form">
+				<div id="p5_name">
+					<input type='text' id="p5_fn" class="p5_fill_in" placeholder="First Name">
+					<input type='text' id="p5_ln" class="p5_fill_in" placeholder="Last Name">
+				</div>
+				<div id="p5_email">
+					<input type='text' id="p5_e" class="p5_fill_in" placeholder="Email">
+				</div>
+				<div id="p5_message">
+					<input type='text' id="p5_m" class="p5_fill_in" placeholder="Leave your message..">
+				</div>
+				<div id="p5_submit">
+					<input type='submit' id="p5_s" value="Submit">
+				</div>
+			</form>
+		</div>
+      </div>
+	  <!--     page6      -->
+      <div class="page" id="p6">
+		<div id="p6_img">
+			<div><img id="p6_ig" src="./Footer/facebook.png" /></div>
+			<div><img id="p6_fb" src="./Footer/Linkedin.png" /></div>
+			<div><img id="p6_yt" src="./Footer/youtube.png" /></div>
+		</div>
+		<div id="p6_right">
+			<div id="p6_text">© 2021 Liz Li - all rights reserved. Terms of Use Privacy & Cookies</div>
+		</div>
+      </div>
+	  <script src="resume.js"></script>
+    </body>
+  </html>
+
+
